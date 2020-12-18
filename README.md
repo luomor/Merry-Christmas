@@ -20,3 +20,5 @@
 
 cnpm install
 grunt build
+
+grunt build --force
