@@ -17,3 +17,6 @@
 <img src="qrcode.png" width="200">
 
 设计稿PSD下载地址：<a href="http://pan.baidu.com/s/1gdw3lEr" target="_blank">[下载]</a>
+
+cnpm install
+grunt build
