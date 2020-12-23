@@ -121,6 +121,6 @@ $(function(){
 		$(".loading-mask").addClass("outLeft");
 		$(".page").addClass("in");
 		setTimeout(animates.step1,300);
-		$("#bgmusci")[0].play();
+		$("#bgmusic")[0].play();
 	});
 });
