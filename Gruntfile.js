@@ -9,6 +9,11 @@ module.exports = function(grunt) {
                         'src/js/zepto-min.js',
                         'src/js/snowstorm.js',
                         'src/js/christmas.js'
+                    ],
+                    'dist/js/app-xmas.js': [
+                        'src/js-xmas/zepto-min.js',
+                        'src/js-xmas/snowstorm.js',
+                        'src/js-xmas/christmas.js'
                     ]
                 }
             }
@@ -19,6 +24,10 @@ module.exports = function(grunt) {
                     'dist/css/app.css': [
                         'src/css/christmas.css',
                         'src/css/animate.css'
+                    ],
+                    'dist/css/app-xmas.css': [
+                        'src/css-xmas/christmas.css',
+                        'src/css-xmas/animate.css'
                     ]
                 }
             }
