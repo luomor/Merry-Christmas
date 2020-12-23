@@ -22,3 +22,59 @@ cnpm install
 grunt build
 
 grunt build --force
+
+```
+grunt build --force        
+Loading "imagemin.js" tasks...ERROR
+>> ReferenceError: primordials is not defined
+Warning: Task "imagemin" not found. Used --force, continuing.
+
+Done, but with warnings.
+
+grunt --version
+grunt-cli v1.2.0
+grunt v0.4.5
+
+cnpm install -g grunt
+
+grunt --version      
+grunt-cli v1.3.2
+grunt v0.4.5
+
+cnpm install -g gulp
+
+/usr/local/bin/gulp
+```
+
+```
+imagemin ReferenceError: primordials is not defined
+```
+
+```
+grunt build -v
+
+cnpm install grunt-real-favicon
+
+
+deprecate grunt@0.4.5 › minimatch@~0.2.12 Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+deprecate grunt@0.4.5 › coffee-script@~1.3.3 CoffeeScript on NPM has moved to "coffeescript" (no hyphen)
+deprecate grunt@0.4.5 › glob@3.1.21 › graceful-fs@~1.2.0 please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+deprecate grunt@0.4.5 › findup-sync@0.1.3 › glob@3.2.11 › minimatch@0.3 Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+deprecate grunt-contrib-imagemin@0.9.4 › imagemin@3.2.2 › vinyl-fs@1.0.0 › glob-stream@4.1.1 › minimatch@^2.0.1 Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+deprecate grunt-contrib-imagemin@0.9.4 › imagemin@3.2.2 › vinyl-fs@1.0.0 › graceful-fs@3.0.12 › natives@^1.1.3 This module relies on Node.js's internals and will break at some point. Do not use it, and update to graceful-fs@4.x.
+deprecate grunt-contrib-imagemin@0.9.4 › imagemin@3.2.2 › imagemin-gifsicle@4.2.0 › gifsicle@3.0.4 › bin-wrapper@3.0.2 › download@4.4.3 › gulp-decompress@1.2.0 › gulp-util@^3.0.1 gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+```
+
+```
+"grunt": "~0.4.2",
+"grunt-contrib-uglify": "^0.6.0",
+"grunt-contrib-clean": "^0.6.0",
+"grunt-contrib-cssmin": "^0.10.0",
+"grunt-contrib-imagemin": "^0.9.2"
+
+cnpm install --save-dev grunt
+cnpm install --save-dev grunt-contrib-uglify
+cnpm install --save-dev grunt-contrib-clean
+cnpm install --save-dev grunt-contrib-cssmin
+cnpm install --save-dev grunt-contrib-imagemin
+```
